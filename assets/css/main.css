@@ -4207,6 +4207,40 @@ cite {
   margin: auto;
 }
 
+.letterhead {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: left;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1c1c1c;
+  z-index: 1;
+}
+
+.letterhead-nameplate {
+  margin-left: 1rem;
+}
+
+.nameplate-tagline {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nameplate-title {
+  color: #ffffff;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
 .navigation-bar {
   background-color: #000000;
   padding: 1rem 2rem;
@@ -4249,13 +4283,6 @@ cite {
 
 .postcard-body__tags {
   margin: 0 0 0.5rem 0;
-}
-
-.tagline {
-  background-color: #1c1c1c;
-  color: #ffffff;
-  padding: 0rem 2rem;
-  padding-bottom: 2rem;
 }
 
 /* **************************************8888 NEW CSS FORMAT ENDS HERE *************************************/

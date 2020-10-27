@@ -1,6 +1,17 @@
 <!-- header include -->
-<header class="main_header">
-  <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% else %}B<span>ef</span>{% endif %}</a>
-  <nav class="main_menu">
-  </nav>
+<header class="letterhead">
+  {% if site.logo %}
+    <a href="{{site.baseurl}}/">
+      <img src="{{ site.logo | absolute_url }}">
+    </a>
+  {% endif %}
+  <div class="letterhead-nameplate">
+    <a href="{{site.baseurl}}/" class="nameplate-title">
+      {{ site.title  }}
+    </a>
+    <br>
+    <a href="{{site.baseurl}}/" class="nameplate-tagline">
+      {{ site.tagline }}
+    </a>
+  </div>
 </header> <!-- End Section Header -->
