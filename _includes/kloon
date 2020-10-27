@@ -1,0 +1,17 @@
+  <section class="author cf">
+    <div class="post_wrapper">
+      <div class="author_image">
+        <img src="{{site.baseurl}}/assets/img/kloon.jpg" alt="Author face">
+      </div>
+      <div class="author_info">
+        <h2 class="author_title">Kloon Sokpup</h2>
+        <p class="author_subtitle">IT Professional</p>
+        <div class="author_social">
+          <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:kloon@127.0.0.1">kloon@127.0.0.1</a></span>
+          <span class="author_phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:212-555-1337">212-555-1337</a></span>
+          <span class="author_website"><i class="fa fa-link" aria-hidden="true"></i> <a href="https://linkedin.com/in/kloon" target="_blank">https://linkedin.com/in/kloon</a></span>
+        </div>
+      </div>
+    </div>
+  </section> <!-- End Section Author -->
+

@@ -1,0 +1,39 @@
+<!-- postcard include -->
+{% for post in paginator.posts %}
+  <div class="postcard">
+    <div class="composite">
+      <a class="composite__link" href="{{post.url | prepend: site.baseurl}}">
+        {% if post.image %}
+          <img class="composite__image" src={{ post.image | absolute_url }} alt="{{post.title}}">
+        {% endif %}
+      </a>
+      <a class="composite__link" href="{{post.url | prepend: site.baseurl}}">
+        <div class="composite__caption">
+          <h3 class="composite__caption--h3">{{post.title}}</h3>
+        </div>
+      </a>
+    </div>
+    <div class="postcard-body">
+      <a class="postcard-body__link" href="{{post.url | prepend: site.baseurl}}">
+	<div class="postcard-body__tags">
+	  {% if post.tags.size > 0 %}
+            {% for tag in post.tags %}
+              {% if forloop.index == post.tags.size %}
+                <span class="postcard-body__tags__text">{{ tag | capitalize }}</span>
+              {% else %}
+                <span class="postcard-body__tags__text">{{ tag | capitalize }}</span>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </div>
+	<div class="postcard-body__excerpt">
+          {% if post.excerpt %}
+            <p class="postcard-body__excerpt__text">{{ post.excerpt | strip_html | truncatewords: 33, "" }}</p>
+          {% else %}
+            <p class="postcard-body__excerpt__text">{{ post.content | strip_html | truncatewords: 33, "" }}</p>
+          {% endif %}
+	</div>
+      </a>
+    </div>
+  </div>
+{% endfor %}

@@ -1,0 +1,17 @@
+  <section class="author cf">
+    <div class="post_wrapper">
+      <div class="author_image">
+        <img src="{{site.baseurl}}/assets/img/virusfriendly.jpg" alt="Author face">
+      </div>
+      <div class="author_info">
+        <h2 class="author_title">Eric Gragsone</h2>
+        <p class="author_subtitle">IoT and Embedded Systems Vulnerability Researcher. Specializing in Firmware and Network/RF Communications</p>
+        <div class="author_social">
+          <span class="author_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:virus.friendly@gmail.com">virus.friendly@gmail.com</a></span>
+          <span class="author_phone"><i class="fa fa-phone" aria-hidden="true"></i> <a href="https://keybase.io/virusfriendly">PGP Key ID: 02CB 369A DBA5 1FC4</a></span>
+          <span class="author_website"><i class="fa fa-link" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/eric-gragsone" target="_blank">www.linkedin.com/in/eric-gragsone</a></span>
+        </div>
+      </div>
+    </div>
+  </section> <!-- End Section Author -->
+

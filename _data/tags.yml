@@ -1,0 +1,16 @@
+macphy:
+  tag: macphy
+  name: Data Link and  Physical Layer Protcols
+  description: The rise of unguided transmission methods and Software Defined Radio has rekindled interest to these once under-appreciated protocol layers. Most of the posts in this section will be focused on, but not limited to, exploring radio macphy protocols.
+network:
+  tag: network
+  name: Network and Transport Layer Protocols
+  description: Posts in this section will often be focused on network troubleshooting, from a packet analysis point of view.
+app:
+  tag: host
+  name: Host Layer Protocols
+  description: Posts in this section will be about reverse engineering or understanding the workings of, often proprietary, host (Application/Presentation/Session) layer protocols.
+crypto:
+  tag: crypto
+  name: Cryptography
+  description: The Swift and Secret Messenger

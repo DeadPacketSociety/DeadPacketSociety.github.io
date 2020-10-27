@@ -1,0 +1,49 @@
+logo: <img src="/assets/img/DPS.jpg"> Dead Packet Society # add logo name
+title: Dead Packet Society
+description: > # this means to ignore newlines until "baseurl:"
+  Network analysis, packet dissection, protocol reverse engineering, and software defined radio
+tagline: A collective of packet enthusiasts researching various forms of data in motion.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://deadpacketsociety.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social link
+social:
+  links:
+    - https://twitter.com/ISeeDeadPackets
+    - https://www.instagram.com/ISeeDeadPackets/
+    - https://www.pinterest.com/DeadPacketSociety/
+    - https://www.facebook.com/DeadPacketSociety/
+
+google_url:    # add url link
+
+twitter_url:   https://twitter.com/ISeeDeadPackets # add url link
+twitter:
+  username: ISeeDeadPackets
+  card: summary
+
+instagram_url: https://www.instagram.com/ISeeDeadPackets/ # add url link
+pinterest_url: https://www.pinterest.com/DeadPacketSociety/ # add url link
+dribbble_url:  # add url link
+facebook_url:  https://www.facebook.com/DeadPacketSociety/ # add url link
+
+# Disqus
+discus_identifier: # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
+
+# Newsletter
+mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Tracker
+analytics:
+
+# Paginate
+paginate: 12
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+plugins_dir: [_plugins]
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
