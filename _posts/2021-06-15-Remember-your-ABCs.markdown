@@ -7,9 +7,7 @@ description: Introduction to the blog # Add post description (optional)
 author: virusfriendly
 ---
 
-“Always. Be. Capturing.”
-
-A phrase popularized by the RF Hacker Sanctuary to ensure the collection of WiFi handshakes during competitions, as they only occur at the beginning of a session, unless deauthed. It rewarded prompt attendance, having their gear up and listening before the organizers started up their systems. It also meant you would capture and could learn from other team’s attacks.
+“Always. Be. Capturing.” A phrase popularized by the [RF Hacker Sanctuary](https://wirelessvillage.ninja/) to ensure the collection of WiFi handshakes during competitions, as they only occur at the beginning of a session, unless deauthed. It rewarded prompt attendance, having their gear up and listening before the organizers started up their systems. It also meant you would capture and could learn from other team’s attacks.
 
 But it’s more than a competitive strategy for the Dead Packet Society. It is a constant reminder that one should be capturing, and making tools to make capturing easier. Because we live for the signal in the noise. We search for new and unrecognizable forms of data in motion, so that we may reverse engineer them and spread the knowledge through blog posts and tool enhancements.
 
@@ -19,7 +17,7 @@ The typical home network may appear boring and static on the surface, but it's b
 
 Developers are constantly solving the demands of the masses with sleek interfaces hiding half baked and short lived protocols that will never see adoption. Then there is persistent infiltration of IoT devices into our homes, communicating more with each other than their owners. All this creates a rather lively and dynamic ecosystem of protocols.
 
-![Always. Be. Capturing.](/assets/ABCs.jpg)
+![Always. Be. Capturing.](/assets/img/ABCs.jpg)
 
 Then there are other networks to explore. Basic Internet access is as complimentary as coffee. Adhoc networks such as Bluetooth and Wifi-Direct continually chase the dream of fool-proof wireless device communication. Most vehicles and IoT devices networked utilizing a variety of standards. The rise of low-cost software defined radios has made it possible to explore an entire spectrum of RF signals. Never has there been a better time to become a network adventurer.
 
