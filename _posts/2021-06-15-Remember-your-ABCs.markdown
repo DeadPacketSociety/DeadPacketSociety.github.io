@@ -3,7 +3,7 @@ layout: post
 title: "Remember your ABCs"
 image: /assets/img/rj45-ports.png # Add image post (optional)
 date: 2021-06-15
-description: Introduction to the blog # Add post description (optional)
+description: Introduction to Dead Packet Society # Add post description (optional)
 author: virusfriendly
 ---
 
