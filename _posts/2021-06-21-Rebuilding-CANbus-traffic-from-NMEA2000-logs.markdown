@@ -12,7 +12,7 @@ tag: [macphy, NMEA2000, J1939, CANbus]
 In this post I will cover how I identified and extracted CAN bus traffic from a NMEA2000 data log of a mixed technology network. This is an important step for untangling and reverse engineering CAN bus data, which I’ll go over in future posts.
 
 # The Challenge
-[HackTheMachine](https://hackthemachine.ai) is a maritime cyber contest hosted by the United States Navy to raise awareness in the computer security industry about challenges and threats facing maritime networks. During the 2020 and 2021 HackTheMachine competitions teams were given the output from a NMEA2000 logger of a network that included both NMEA2000 and CAN bus devices, and had to determine various aspects of the CAN bus devices. 
+[HackTheMachine](https://hackthemachine.ai) is a maritime cyber contest hosted by the United States Navy to raise awareness in the computer security industry about challenges and threats facing maritime networks. During the 2020 and 2021 HackTheMachine competitions, teams were given the output from a NMEA2000 logger of a network that included both NMEA2000 and CAN bus devices, and had to determine various aspects of the CAN bus devices. 
 
 Though NMEA2000 is compatible with CAN bus, these protocols have different addressing schemes and their frames need to be interpreted differently.
 
