@@ -3,7 +3,7 @@ layout: post
 title: Rebuilding CAN bus traffic from NMEA2000 logs # Title
 image: /assets/img/yacht-antenna-array.jpg # Add image post (optional, but encouraged)
 date: 2021-06-23 # YYYY-MM-DD
-description: # Add post description (optional)
+description: Identifying CAN bus devices on a mixed network and rebuilding their CAN identifiers # Add post description (optional)
 author: virusfriendly # virusfriendly or ladynikon
 tag: [macphy, NMEA2000, J1939, CANbus]
 ---
