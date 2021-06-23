@@ -47,5 +47,5 @@ destination: docs
 plugins_dir: [_plugins]
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-#include: [_pages]
+include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
