@@ -20,7 +20,7 @@ Though NMEA2000 is compatible with CAN bus, these protocols have different addre
 To rebuild CAN bus traffic from the NMEA2000 log we will need to understand the details of CAN bus and NMEA2000 frames and how they relate to each other in order to identify anomalous traffic and reconstruct them into CAN bus frames.
 
 ## CAN Bus Frame Reconstruction
-NMEA2000 is not directly related to CAN bus but instead is based on the SAE J1939 protocol used in commercial vehicles such as trucking and construction. The SAE J1939 protocol is based on the CAN bus protocol used in consumer vehicles most people drive. As they share the same physical standards, all three protocols can operate on the same network. What makes them different is the addressing mechanism of their MAC (media access control) layer.
+NMEA2000 is not directly related to CAN bus but instead is based on the SAE J1939 protocol used in commercial vehicles such as trucking and construction. The SAE J1939 protocol is based on the CAN bus protocol used in consumer vehicles most people drive. As they share the same physical standards, all three protocols can operate on the same network. What makes them different is the addressing mechanism of their MAC (media access control) layer. As the addressing mechanism is located in the first 32 bits of the CAN bus frame, we can focus on that and ignore the rest of the frame for this post.
 
 ![Visual Summary of CAN bus, J1939, and NMEA2000](/assets/img/canbus-j1939-nmea2000.png)
 
