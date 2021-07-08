@@ -19,7 +19,7 @@ Developers are constantly solving the demands of the masses with sleek interface
 
 ![Always. Be. Capturing.](/assets/img/ABCs.jpg)
 
-Then there are other networks to explore. Basic Internet access is as complimentary as coffee. Adhoc networks such as Bluetooth and Wifi-Direct continually chase the dream of fool-proof wireless device communication. Most vehicles and IoT devices networked utilizing a variety of standards. The rise of low-cost software defined radios has made it possible to explore an entire spectrum of RF signals. Never has there been a better time to become a network adventurer.
+Then there are other networks to explore. Basic Internet access is as complimentary as coffee. Adhoc networks such as Bluetooth and Wifi-Direct continually chase the dream of fool-proof wireless device communication. Most vehicles and IoT devices are networked utilizing a variety of standards. The rise of low-cost software defined radios has made it possible to explore an entire spectrum of RF signals. Never has there been a better time to become a network adventurer.
 
 It’s easy to become overwhelmed by the realization of how much there is to capture, and believe that “Always Be Capturing” dictates one to capture everything. But capturing everything is a sisyphean task. Even bulk capturing of a specific transmission protocol has diminishing returns. Always Be Capturing values simplicity, leveraging tools and processes to make the process of capturing and analysis easier, not a burden.
 
