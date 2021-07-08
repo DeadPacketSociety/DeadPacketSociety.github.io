@@ -4443,6 +4443,12 @@ cite {
   color: #ffffff;
 }
 
+.post img {
+  width: 100%;
+  max-height: 500px;
+  vertical-align: middle;
+}
+
 .post .entry_content {
   padding-bottom: 2rem;
 }
