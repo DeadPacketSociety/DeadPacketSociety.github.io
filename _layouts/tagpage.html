@@ -5,13 +5,11 @@ layout: body
 <main class="page-content" aria-label="Content">
   <section class="chapters cf">
     <div class="wrapper">
-      <div class="epigraph-wrapper">
-          <div class="postcard-body">
-            <h1 class="site-title">{{ tag_name }}</h1>
-	    <p class="postcard-body__excerpt__text">
-	      {{ page.content }}
-            </p>
-          </div>
+      <div class="postcard-body">
+        <h1 class="site-title">{{ page.name }}</h1>
+        <p class="postcard-body__excerpt__text">
+	  {{ page.content }}
+        </p>
       </div>
     </div>
   </section>
