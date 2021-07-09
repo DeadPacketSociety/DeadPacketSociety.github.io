@@ -2,23 +2,19 @@
 layout: body
 ---
 {% include navbar.html %}
-<header class="page-content">
+<main class="page-content" aria-label="Content">
   <section class="chapters cf">
     <div class="wrapper">
       <div class="epigraph-wrapper">
-        {% if page.content %}
           <div class="postcard-body">
             <h1 class="site-title">{{ tag_name }}</h1>
 	    <p class="postcard-body__excerpt__text">
 	      {{ page.content }}
             </p>
           </div>
-        {% endif %}
       </div>
     </div>
   </section>
-</header>
-<main class="page-content" aria-label="Content">
   <section class="chapters cf">
     <div class="wrapper flex-row">
       {% include tag-card.html %}
