@@ -1,24 +1,16 @@
 ---
 layout: body
 ---
-<!-- tag layout -->
 {% include navbar.html %}
-{% for tag in site.data.tags %}
-  {% if page.tag contains tag[1].tag %}
-    {% assign cover = tag[1].cover %}
-    {% assign tag_name = tag[1].name %}
-    {% assign tag_description = tag[1].description %}
-  {% endif %}
-{% endfor %}
 <header class="page-content">
   <section class="chapters cf">
     <div class="wrapper">
       <div class="epigraph-wrapper">
-        {% if tag_description %}
+        {% if page.content %}
           <div class="postcard-body">
             <h1 class="site-title">{{ tag_name }}</h1>
 	    <p class="postcard-body__excerpt__text">
-	      {{ tag_description }}
+	      {{ page.content }}
             </p>
           </div>
         {% endif %}
@@ -29,7 +21,7 @@ layout: body
 <main class="page-content" aria-label="Content">
   <section class="chapters cf">
     <div class="wrapper flex-row">
-      {% include post-card.html %}
+      {% include tag-card.html %}
     </div>
   </section>
 </main>
