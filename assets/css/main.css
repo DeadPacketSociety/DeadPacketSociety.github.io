@@ -4443,12 +4443,6 @@ cite {
   color: #ffffff;
 }
 
-.post img {
-  width: 100%;
-  max-height: 500px;
-  vertical-align: middle;
-}
-
 .post .entry_content {
   padding-bottom: 2rem;
 }
@@ -4966,6 +4960,11 @@ cite {
   .copyright p {
     font-size: 0.6rem;
   }
+  .post img {
+    width: 100%;
+    max-height: 500px;
+    vertical-align: middle;
+  }
   blockquote {
     font-size: 1.1rem;
     padding-left: 1rem;
@@ -4985,6 +4984,11 @@ cite {
   }
   .post header .post_title {
     font-size: 1.3rem;
+  }
+  .post img {
+    width: 100%;
+    max-height: 500px;
+    vertical-align: middle;
   }
   .post_footer .post_share {
     float: none;
@@ -5036,5 +5040,10 @@ cite {
   .post header .post_title {
     padding: 0.8rem;
     font-size: 1.2rem;
+  }
+  .post img {
+    width: 100%;
+    max-height: 500px;
+    vertical-align: middle;
   }
 }

@@ -24,4 +24,7 @@
 	{% seo %}
 	<meta name="twitter:image" content="{{ page.image | absolute_url }}">
 	<meta property="og:type" content="object">
+	{% if site.tags != "" %}
+	  {% include collecttags.html %}
+	{% endif %}
 </head>
