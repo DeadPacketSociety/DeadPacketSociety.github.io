@@ -5,7 +5,7 @@ image: /assets/img/dns-sleuth.jpg # Add image post. Remember images are in the /
 date: 2021-07-21
 description: Learn how Nmap defines ports and how to update its definitions # Add post description (optional)
 author: virusfriendly
-tag: host, Nmap
+tag: [host, Nmap]
 ---
 There are roughly a billion hosts on the internet, with each host having 65,536 TCP and 65,536 UDP ports. These metrics are relatively easy to track and look up. But ask how many application protocols there are, and you will never find the answer. As philosophical sounding the question may be, it reminds those who investigate networks that not only will our tools always be incomplete, but that their amount of incompleteness is unknown.
 
