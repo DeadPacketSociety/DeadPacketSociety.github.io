@@ -14,10 +14,10 @@ In this post I will cover how I determine data structures in unknown CAN bus pro
 # The Challenge
 [HackTheMachine](https://hackthemachine.ai) is a maritime cyber contest hosted by the United States Navy to raise awareness in the computer security industry about challenges and threats facing maritime networks. During the 2020 and 2021 HackTheMachine competitions, teams were given the output from a NMEA2000 logger of a network of devices using a proprietary CAN bus protocol and had to determine various aspects of the CAN bus devices.
 
-# Byte Entropy Analysis
-In a [previous post](http://deadpacketsociety.net/Rebuilding-CANbus-traffic-from-NMEA2000-logs/), I demonstrated how I extracted CAN bus traffic from a NMEA2000 log. Now I can create a script to correlate traffic by CAN bus ID, and count the variety of values in each byte of data for us to analyze.
+In a [previous post](http://deadpacketsociety.net/Rebuilding-CANbus-traffic-from-NMEA2000-logs/), I demonstrated how I extracted CAN bus traffic from a NMEA2000 log of a mixed network.  The next step is to analyze the CAN bus data field to determine the structure of the proprietary protocol or protocols. This will allow me to perform traffic analysis on the protocols to determine how they relate to each other.
 
-CAN bus frames can have up to 8 bytes of data. Each byte should have a minimum of 1 value seen, and a maximum of 256. I have the script output these values in padded hex for easy viewing.
+# Byte Entropy Analysis
+CAN bus frames can have up to 8 bytes of data, and this proprietary protocol always uses all 8 bytes. I created a script to correlate traffic by CAN bus ID, and count the variety of values in each byte of data for us to analyze. Each byte should have a minimum of 1 value seen, and a maximum of 256. I have the script output these values in padded hex for easy viewing.
 
 Using the following value counts as an example:
 `91 08 02 01 9b 08 75 71`
@@ -59,7 +59,7 @@ Had I made the assumption that these CAN bus devices were using a single unified
 
 Source logs and code associated to this post can be found at [https://github.com/VirusFriendly/HackTheMachine-Notes](https://github.com/VirusFriendly/HackTheMachine-Notes)
 
-Special thanks to Fathom5, Booz Allen Hamilton, and the United States Navy for providing the opportunity to gain hands-on experience with maritime networks, and to Ploppowaffles for review and feedback on this post.
+Special thanks to Fathom5, Booz Allen Hamilton, and the United States Navy for providing the opportunity to gain hands-on experience with maritime networks, and to Ploppowaffles and Calc for review and feedback on this post.
 
 Additionally, I would like to thank Calc who gave me my first view of a car’s CAN bus traffic as viewed through an entropy analysis tool he developed. While this work is not directly derived from his, I would often think back to that demonstration while working on this competition.
 
