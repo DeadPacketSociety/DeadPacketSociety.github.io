@@ -5,7 +5,7 @@ image: /assets/img/circuit_repair.jpg # Add image post. Remember images are in t
 date: 2021-07-31
 description: # Add post description (optional)
 author: virusfriendly # virusfriendly or ladynikon
-tag: [macphy, CANbus] # Common tags are [macphy, network, host, crypto]
+tag: [macphy, CANbus, HACKtheMACHINE] # Common tags are [macphy, network, host, crypto]
 ---
 
 # Summary
