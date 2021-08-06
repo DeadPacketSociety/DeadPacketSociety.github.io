@@ -5,7 +5,7 @@ image: /assets/img/yacht-antenna-array.jpg # Add image post (optional, but encou
 date: 2021-06-23 # YYYY-MM-DD
 description: Identifying CAN bus devices on a mixed network and rebuilding their CAN identifiers # Add post description (optional)
 author: virusfriendly # virusfriendly or ladynikon
-tag: [macphy, NMEA2000, J1939, CANbus]
+tag: [macphy, NMEA2000, J1939, CANbus, HACKtheMACHINE]
 ---
 
 # Summary
@@ -49,7 +49,7 @@ Depending on how much log data is collected, you can also determine CAN Bus devi
 Additionally by determining what NMEA2000 devices exist on the network, through a visual recon, and checking for the PGN values they transmit can help you determine which PGN values you shouldn’t see and are likely misinterpreted CAN bus identifiers. For interoperability, the PGN values any NMEA2000 device transmits or accepts are well documented and can be found either in the product brochure, technical specifications, or user manual. This is true even for proprietary PGNs, the data format will of course be an industry secret, but the PGN will be documented.
 
 # Results
-Examining the PGNs in the NMEA2000 log, I was able to identify three values (61184,65280,65281) via network analysis and confirmed by researching known device transmit PGN values. It appeared that there were seven devices based on the NMEA2000 source addresses. However, 15 CAN bus identifiers were revealed when these addresses and PGN values (along with the priority and destination fields) were converted.
+Examining the PGNs in the NMEA2000 log, I was able to identify three values (61184,65280,65281) via network analysis and confirmed by researching known device transmit PGN values. It appeared that there were seven devices based on the NMEA2000 source addresses. However, 14 CAN bus identifiers were revealed when these addresses and PGN values (along with the priority and destination fields) were converted.
 
 ![Converted CAN bus identifiers](/assets/img/converted-canbus-ids.png)
 
