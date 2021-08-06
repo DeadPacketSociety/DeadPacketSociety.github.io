@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Identifying CAN bus Devices using Traffic Analysis# Title
+title: Identifying CAN bus Devices using Traffic Analysis # Title
 image: /assets/img/ship-bridge.jpg # Add image post. Remember images are in the /assets/img/ directory (optional, but encouraged)
 date: 2021-08-05 # YYYY-MM-DD
 description: In this post I will cover how I use traffic analysis to determine the various functions of an unknown CAN bus protocol. I’ll use this analysis to map CAN bus addresses to physical devices, and ultimately allow me generate predictable effects by spoofing the protocol. # Add post description (optional)
